@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background: rgba(0, 0, 0, 0.7)url('spaceX-1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.main2{
+    background: rgba(0, 0, 0, 0.7)url('SpaceX-2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.main3 {
+    background: rgba(0, 0, 0, 0.7)url('SpaceX-3.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* .main4{
+    background: rgba(0, 0, 0, 0.7)url('spaceX-1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+} */
+.navbar {
+    overflow: hidden;
+    background-color:transparent;
+    /* background-color: #171616; */
+    position: fixed; 
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f0f0;
+    text-align: center;
+    padding: 18px 16px;
+    margin: 16px 18px 0;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  .navbar img{
+    background-color: transparent;
+   height: 90px;
+   margin: 0px 54px;
+   border-radius: 50px;
+   width: auto;
+  }
+  
+body img{
+    width: 100%;
+}
+button.btn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 20px 42px;
+    margin: 42% 0px 69px 63px;
+}
+button.btn:hover{
+ color: #04ff00;
+background-color: rgb(0, 0, 0);
+}
+
+button.btn2{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 20px 42px;
+    margin: 42% 0px 69px 63px;
+}
+button.btn2:hover{
+    color: #04ff00;
+   background-color: rgb(0, 0, 0);
+   }
+
+button.btn3{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 20px 42px;
+    margin: 42% 0px 69px 63px;
+}
+button.btn3:hover{
+    color: #04ff00;
+   background-color: rgb(0, 0, 0);
+   }
+p {
+    position: absolute;
+    top: 60%;
+    left: 60px;
+    color: #f2f0f0;
+}
+p.p2 {
+    position: absolute;
+    top: 149%;
+    left: 60px;
+    color: #f2f0f0;
+}
+p.p3{
+    position: absolute;
+    top: 242%;
+    left: 60px;
+    color: #f2f0f0;
+}
+h1{
+    position: absolute;
+    top: 64%;
+    left: 60px;
+    font-size: 40px;
+    color: #000000;
+    background-color: #ddd;
+}
+h1.h2{
+    position: absolute;
+    top: 154%;
+    left: 60px;
+    font-size: 40px;
+    color: #000000;
+    background-color: #ddd;
+}
+h1.h3{
+    position: absolute;
+    top: 246%;
+    left: 60px;
+    font-size: 40px;
+    color: #000000;
+    background-color: #ddd;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    background: rgb(101, 101, 101);
+    color: #04ff00;
+    padding: 15px;
+}
